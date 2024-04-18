@@ -4,12 +4,6 @@ class Amigo {
     public int Mes { get; set; }
     public int Anio { get; set; }
     
-        public void SetFechaNacimiento(int dia, int mes, int anio)
-    {
-        Dia = dia;
-        Mes = mes;
-        Anio = anio;
-    }
 public bool EsMayorEdad()
     {
         DateTime fechaActual = DateTime.Now;
